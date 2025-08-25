@@ -1,0 +1,9 @@
+**An AI Journal of some sorts**
+I made this because I'm constantly procrastinating writing into my Internship Log book. That's because we learn a lot everyday and I just saw writing everything as daunting, so I used the llama3-8b-8192 model to summarize what I learned during the day, making it easier to write in the book. It's more of a me thing, but obviously it could be used in other things.
+
+---
+
+**Setup**
+- Create a virtual environment
+- Install all the packages from the requirements.txt file
+- And then, run it.
