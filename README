@@ -1,9 +1,54 @@
-## An AI Journal of some sorts
-I made this because I'm constantly procrastinating writing into my Internship Log book. That's because we learn a lot everyday and I just saw writing everything as daunting, so I used the llama3-8b-8192 model to summarize what I learned during the day, making it easier to write in the book. It's more of a me thing, but obviously it could be used in other things.
+# 📓 AI Journal
 
----
+A small tool that takes the sting out of writing your internship log. Instead of staring at a blank page trying to remember what you did all day, **AI Journal** summarizes what you learned using `llama3-8b-8192`, so you can just copy it straight into your logbook.
 
-## Setup
-- Create a virtual environment
-- Install all the packages from the requirements.txt file
-- And then, run it.
+Built out of pure procrastination-avoidance. It works for internship logs, but really it's just a daily "what did I learn" summarizer, so use it however you'd like.
+
+##  Why
+
+Writing "here's everything I learned today" from scratch every single day is daunting enough that you just... don't. This flips the problem: dump your notes/thoughts in, get a clean summary out.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.9+
+- A [Groq API key](https://console.groq.com/keys) (used to run `llama3-8b-8192`)
+
+### Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/FeaRleSSLegend/ai-journal.git
+   cd ai-journal
+   ```
+
+2. **Create a virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set your API key**
+   ```bash
+   export GROQ_API_KEY="your-api-key-here"   # On Windows: set GROQ_API_KEY=your-api-key-here
+   ```
+
+5. **Run it**
+   ```bash
+   python main.py
+   ```
+
+## 🛠️ Tech
+
+- **Model:** `llama3-8b-8192` via Groq
+- **Language:** Python
+
+## 📄 License
+
+MIT — do whatever you want with it.
